@@ -1,0 +1,25 @@
+# Recipe Manager .gitignore
+
+# Dependencies
+node_modules/
+
+# Production build
+/build
+
+# Environment variables (if you create any)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
